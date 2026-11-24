@@ -16,7 +16,7 @@ Without this visibility, the team can't proactively allocate inspectors, anticip
 
 ## Data
 
-City of Calgary Secondary Suites open dataset (~26,500 rows). Fields include Address, Community, CompletionDate, InspectionDate, PermitNumber, StickerNumber, and Ward.
+City of Calgary Secondary Suites open dataset (26,543 rows). Fields include Address, Community, CompletionDate, InspectionDate, PermitNumber, StickerNumber, and Ward.
 
 ## Data Quality Checks
 
@@ -39,11 +39,15 @@ City of Calgary Secondary Suites open dataset (~26,500 rows). Fields include Add
 
 ## Files
 
-- `sql/secondary_suites_queries.sql` - all data quality checks and business question queries
-- `powerbi/Secondary_Suites_Visual.pbix` - Power BI dashboard file (open in Power BI Desktop to view)
+- `Secondary_Suites_queries.sql` - all data quality checks and business question queries
+- `Secondary_Suites_Visual.pbix` - Power BI dashboard file (open in Power BI Desktop to view)
+- `Visualization Screenshot.png` - screenshot of the finished dashboard
+
+![Dashboard screenshot](Visualization%20Screenshot.png)
 
 ## Key Findings
 
-- Suite completions are heavily concentrated in a small number of communities and wards
+- Suite completions grew 6.3x over the period covered by the data
+- Completions are heavily concentrated in a small number of communities, with Ward 5 leading all wards
 - Completions show a clear seasonal pattern across quarters
 - A handful of communities show meaningfully longer inspection to completion lag than the rest, worth flagging for process review
